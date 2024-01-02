@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myportfolio</title>
+    <script src="https://kit.fontawesome.com/54d274a042.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services"> My Services</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <h1>Hi, I'm <span>Mohammed Hamdan<br>Sultan Shaikh,</span> <br>From India</h1>
+            </div>
+        </div>
+    </div>
+<!-- ----------about----- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/main.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>Hello, I'm Mohammed Hamdan, an aspiring front-end developer with a passion for creating visually appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, I aim to craft seamless and responsive user interfaces that enhance the overall user experience. Alongside my development skills, I bring a solid foundation in digital marketing, adept in tools like Google Analytics for insightful data analysis, SEO tools for optimizing online presence, and social media management software for strategic engagement. This dual expertise allows me to not only build compelling websites but also implement data-driven marketing strategies. I stand out for my adaptability and fast learning, thriving in dynamic environments. I'm committed to staying abreast of industry trends and leveraging my skills to drive online visibility and engagement. My portfolio reflects a commitment to excellence in both front-end development and digital marketing, showcasing a track record of successful projects and a dedication to continuous learning and growth.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Front-End Development:</span><br> Proficient in HTML, CSS, and JavaScript.<br>
+                                Experience with popular front-end frameworks such as React, Bootstrap, node.js</li>
+                            <li><span>Back-End Development:</span><br>Proficient in leveraging Node.js and Python to build robust backend solutions. Skilled in creating scalable, efficient, and secure applications. Excited about exploring new challenges and further enhancing proficiency in backend development technologies.</li>
+                            <li><span>Python Programming:</span><br>Proficient in Python programming, I excel in problem-solving and logic building, poised to launch my career as a fresher software engineer. Armed with a strong foundation in Python and a knack for logical reasoning, I'm eager to contribute my skills and enthusiasm to make meaningful contributions in software development</li>
+                            <li><span>Data Structures and Algorithms:</span><br>Proficient in data structures, algorithms, and adept at problem-solving, I'm poised to embark on a career. My internship experience significantly enhanced my skills, preparing me to contribute effectively as a fresh entrant into the field, equipped with a solid foundation in problem-solving and a deep understanding of data structures and algorithms.</li>
+                            <li><span>Adaptability and Learning:</span><br>Fast learner with a proactive approach to new technologies <br>Ability to thrive in dynamic and fast-paced environments.</li>
+                            <li><span>Problem-Solving:</span><br>Strong problem-solving skills to overcome challenges in development projects.</li>
+                            <li><span>Continuous Learning:</span><br>Commitment to staying updated on industry trends and emerging technologies.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                          <li><span>2019-2023</span><br>Computer Science and Engineering(CSE)<br>Vidya Vikas Institute of Engineering and Technology</li>
+                          <li><span>2017-2019</span><br>Associate of Science(PCMC)<br>St.Pilomenas PU College</li>
+                          <li><span>2011-2016</span><br>High School<br>Gnanodaya Public School</li>
+                          <li><span>2005-2010</span><br>Primary/Secondary School<br>International Indian School Riyadh (Saudi Arabia)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------services---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1><br>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML</h2>
+                    <p>I have a deep understanding of semantic HTML and use it to enhance the
+                         accessibility and SEO-friendliness of websites.</p>
+                    <a href="#">Learnmore</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2>CSS</h2>
+                    <p>Skilled in utilizing CSS3 animations and transitions to create engaging and interactive elements,
+                        enhancing user engagements and site interactivity.</p>
+                    <a href="#">Learnmore</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>JavaScript</h2>
+                    <p>Skilled in ES6+ features and syntax, I leverage the latest JavaScript capabilities to write efficient and readable
+                        code.I enjoy exploring new language features and applying them to solve real-wolrd challenges</p>
+                    <a href="#">Learnmore</a><br>
+                </div>
+                <div>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <h2>Boostrap</h2>
+                    <p>Proficient in leveraging Bootsrap's powerful grid system and responsive utilities to create visually appealingand fully
+                        responsive websites.ensuring seamless user experience across a wide range of devices and screen sizes</p>
+                    <a href="#">Learnmore</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-node"></i>
+                    <h2>Node.js</h2>
+                    <p>Experienced in desisning and building RESTful APIs using Node.js and proceint in handking HTTP requests,implementing authentictaion
+                        ,and ensuring secure data transmission.</p>
+                    <a href="#">Learnmore</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>React</h2>
+                    <p>Skilled in developing dynamic and responsive user interfaces using React. Experienced in building scalable applications through a deep understanding
+                         of React's component architecture, state management with Redux, and effective use of React Hooks.</p>
+                    <a href="#">Learnmore</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gear"></i>
+                    <h2>SQL</h2>
+                    <p>Familiar with SQL querying and database management, proficient in writing queries to retrieve and manipulate data. Comfortable working with relational databases for various backend applications.</p>
+                    <a href="#">Learnmore</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-github"></i>
+                    <h2>Git and GitHub</h2>
+                    <p>Skilled in GIT and GITHUB,i colloborate effectively with development teams.i contribute to projects
+                        track changes and manage colloborative workflows,ensuring a streamlined and efficient development process.
+                    </p>
+                    <a href="#">Learnmore</a>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+    <!-- -----------------contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="contact-icons">
+                    <p><a href="#"><i class="fa-solid fa-paper-plane"></i></a> hamdansultan532@gmail.com</p>
+                    <p><a href="tel:+918296915024"><i class="fa-solid fa-phone"></i></a>+91-9964772041</p>
+                    </div><br>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/md-hamdan "><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/SultanHamdan"><i class="fa-brands fa-git"></i></a>
+                        <a href="mailto:hamdansultan532@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    </div><br>
+                    <a href="/Md.Hamdan Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Hamdan <i class="fa-solid fa-computer"></i></p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu= document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbykSNk1ufVn2Ol6p9pzAcB_RFFYo2FXmxqHFjIPq97jzOLKvZd-EnEP6Z49Ezdx3_c/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML ="Mesaage sent Successfully!!!"
+                 setTimeout(function(){
+                    msg.innerHTML=""
+                 },3000)
+                 form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
